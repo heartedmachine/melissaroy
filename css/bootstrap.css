@@ -6356,3 +6356,8 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+.intro-work {
+  font-size: 90px;
+  font-weight: 400;
+}
