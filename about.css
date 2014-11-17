@@ -1,0 +1,22 @@
+.container{
+	width: 100%;
+	overflow: hidden;
+}
+
+.float-left {
+	float:left;
+	width: 25%;
+	margin-top: 3%;
+	margin-left: 3%;
+}
+
+.float-right{
+	float:right;
+	width: 60%;
+	margin-right: 8%;
+	text-align: justify;
+}
+
+.img-flex {
+	max-width: 100%;
+}
