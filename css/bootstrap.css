@@ -197,6 +197,10 @@ th {
   color: white;
 }
 
+.img-float-left {
+  float: left;
+}
+
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
   *,
@@ -3588,8 +3592,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  border-color: #02a289;
-  background: rgba(21, 158, 137, 0.8);
+  border-color: #444;
+  background: rgba(100, 100, 100, 0.8);
 }
 .navbar-default .navbar-brand {
   color: #fff;
