@@ -9,10 +9,14 @@ html, body {
 }
 
 .intro-section{
-	padding-top: 130px;
-	height: 110%;
+	padding-top: 17%;
+	height: auto;
+	margin-bottom: 10%;
 }
 
+.work-section{
+height: auto;
+}
 .float-left {
   width: 80%;
   margin-left: auto;
@@ -84,7 +88,7 @@ h2 {
 }
 
 .folio-piece {
-	width: 100%;
+
 }
 
 .btn-primary {
@@ -95,6 +99,7 @@ h2 {
 .btn-lg,
 .btn-group-lg > .btn {
 padding: 5px;
+max-width: 80%;
 }
 
 .btn-primary:hover,
@@ -133,4 +138,48 @@ padding: 5px;
 	float: right;
 	}
 
+	.btn-lg,
+	.btn-group-lg > .btn {
+	padding: 5px;
+	max-width: 45%;
+	margin:0 1rem 1rem 0;
+}
+
+}
+
+.left-align-piece {
+	text-align: left;
+}
+
+table {
+	margin-top: 1.5rem;
+}
+
+tr {
+	width: 30%;
+}
+
+td {
+	padding-bottom: .5rem;
+
+}
+
+.modal-footer{
+	font-size: 10px;
+	font-color: #ccc;
+}
+
+.categorie {
+	color: #b2b2b2;
+	text-align: right;
+	text-transform: uppercase;
+	width: 34%;
+	vertical-align: top;
+	padding-right: .5rem;
+}
+
+@media (min-width: 992px) {
+.intro-section{
+	padding-top: 12%;
+	padding-bottom: 5%;
 }
