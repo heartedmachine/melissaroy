@@ -117,40 +117,6 @@ max-width: 80%;
 	height: auto;
 }
 
-
-@media (min-width: 768px) {
-	.float-left {
-	float:left;
-	width: 25%;
-	margin-top: 3%;
-	margin-left: 3%;
-	}
-
-	.float-right{
-	float:right;
-	width: 60%;
-	margin-right: 8%;
-	text-align: justify;
-	}
-
-	.nav,
-	.navbar-nav {
-	float: right;
-	}
-
-	.btn-lg,
-	.btn-group-lg > .btn {
-	padding: 5px;
-	max-width: 45%;
-	margin:0 1rem 1rem 0;
-	}
-
-	.grid {
-
-	}
-
-}
-
 .left-align-piece {
 	text-align: left;
 }
@@ -181,6 +147,41 @@ td {
 	vertical-align: top;
 	padding-right: .5rem;
 }
+
+@media (min-width: 768px) {
+	.float-left {
+	float:left;
+	width: 25%;
+	margin-top: 3%;
+	margin-left: 3%;
+	}
+
+	.float-right{
+	float:right;
+	width: 60%;
+	margin-right: 8%;
+	text-align: justify;
+	}
+
+	.nav,
+	.navbar-nav {
+	float: right;
+	}
+
+	.btn-lg,
+	.btn-group-lg > .btn {
+	padding: 5px;
+	max-width: 45%;
+	margin:0 1rem 1rem 0;
+	}
+
+tr {
+	width: 80%;
+}
+
+}
+
+
 
 @media (min-width: 992px) {
 	.intro-section{
