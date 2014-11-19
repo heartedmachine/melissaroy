@@ -143,7 +143,7 @@ max-width: 80%;
 	padding: 5px;
 	max-width: 45%;
 	margin:0 1rem 1rem 0;
-}
+	}
 
 }
 
@@ -179,7 +179,16 @@ td {
 }
 
 @media (min-width: 992px) {
-.intro-section{
+	.intro-section{
 	padding-top: 12%;
 	padding-bottom: 5%;
+	}
+
+	.btn-lg,
+	.btn-group-lg > .btn {
+	padding: 5px;
+	max-width: 30%;
+	margin:0 1.5rem 1.5rem 0;
+	}
+
 }
