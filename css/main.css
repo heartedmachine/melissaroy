@@ -13,8 +13,8 @@ html, body {
 	height: 800px;
 }
 
-.intro-quote-bg {
-	background: transparent url("http://placekitten.com/900/700") no-repeat center top;
+.intro-bg {
+	background: transparent url("http://placekitten.com/2000/900") no-repeat center top;
 	width: auto;
 }
 
@@ -195,15 +195,23 @@ h4 {
 	color: #ccc;
 }
 
+a:hover,
+a:focus,
+a:active {
+  color: #000;
+}
+
+.a,
+a:link,
+a:visited {
+  color: #e2e2e2;
+  text-decoration: none;
+}
+
 @media (min-width: 768px) {
 	.website-quote {
 	font-size: 90px;
 	padding-top: 10%;
-}
-
-.intro-quote-bg {
-	background: transparent url("http://placekitten.com/2000/700") no-repeat center top;
-	background-size: cover;
 }
 
 	.float-left {
@@ -262,7 +270,7 @@ tr {
 
 }
 
-@media (min-width: 1768px) {
+@media (min-width: 1800px) {
 	.container {
 		width: 1800px;
 		margin-right: auto;
