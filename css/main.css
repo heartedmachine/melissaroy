@@ -10,8 +10,18 @@ html, body {
 
 .intro-section{
 	padding-top: 17%;
-	height: auto;
-	margin-bottom: 10%;
+	height: 800px;
+}
+
+.intro-quote-bg {
+	background: transparent url("http://placekitten.com/900/700") no-repeat center top;
+	width: auto;
+}
+
+.website-quote {
+	font-size: 45px;
+	padding-top: 5em;
+	color: #fff;
 }
 
 .work-section{
@@ -177,6 +187,16 @@ table {
 }
 
 @media (min-width: 768px) {
+	.website-quote {
+	font-size: 90px;
+	padding-top: 10%;
+}
+
+.intro-quote-bg {
+	background: transparent url("http://placekitten.com/2000/700") no-repeat center top;
+	background-size: cover;
+}
+
 	.float-left {
 	float:left;
 	width: 25%;
@@ -219,6 +239,11 @@ tr {
 	padding-bottom: 5%;
 	}
 
+	.website-quote {
+	font-size: 100px;
+	padding-top: 5%;
+}
+
 	.btn-lg,
 	.btn-group-lg > .btn {
 	padding: 5px;
@@ -226,4 +251,10 @@ tr {
 	margin:0 1.5rem 1.5rem 0;
 	}
 
+}
+
+@media (min-width: 1768px) {
+	.container {
+		width: 1800px;
+	}
 }
