@@ -186,6 +186,15 @@ table {
 	width: auto;
 }
 
+h4 {
+	color: #fff;
+	font-size: 20px;
+}
+
+.footer-text {
+	color: #ccc;
+}
+
 @media (min-width: 768px) {
 	.website-quote {
 	font-size: 90px;
@@ -256,5 +265,18 @@ tr {
 @media (min-width: 1768px) {
 	.container {
 		width: 1800px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.float-right {
+		float:right;
+		width: 49%;
+		margin-right: 18%;
+		text-align: justify;
+	}
+
+	.float-left {
+		margin-top: 1%;
 	}
 }
