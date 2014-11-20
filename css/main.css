@@ -14,7 +14,7 @@ html, body {
 }
 
 .intro-bg {
-	background: transparent url("http://placekitten.com/2000/900") no-repeat center top;
+	background: transparent url("http://placekitten.com/3000/800") no-repeat center top;
 	width: auto;
 }
 
@@ -186,7 +186,7 @@ table {
 	width: auto;
 }
 
-h4 {
+h5 {
 	color: #fff;
 	font-size: 20px;
 }
