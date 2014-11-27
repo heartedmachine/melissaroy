@@ -2,6 +2,11 @@ html, body {
 
 }
 
+@font-face {
+  font-family: 'Dragon is Coming';
+  src: url('../fonts/Dragon is coming.otf');
+}
+
 .intro-work {
 	font-size: 40px;
 	color: #fff;
@@ -9,8 +14,8 @@ html, body {
 }
 
 .intro-section{
-	padding-top: 17%;
-	height: 800px;
+	height: 850px;
+	margin-bottom: -50px;
 }
 
 .intro-bg {
@@ -22,6 +27,12 @@ html, body {
 	font-size: 45px;
 	padding-top: 5em;
 	color: #fff;
+}
+
+.container {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .work-section{
@@ -45,7 +56,11 @@ html, body {
   max-width: 100%;
 }
 
-	.nav,
+.wrapper {
+	overflow: hidden;
+}
+
+.nav,
 	.navbar-nav {
 	text-align: center;
 	}
@@ -75,6 +90,11 @@ h2 {
 	text-align: left;
 }
 
+h6{
+	text-align: left;
+	font-family: Dragon is Coming;
+	font-size: 90pt;
+}
 .carousel-control.right,
 .carousel-control.left {
 	background: none;
@@ -96,10 +116,6 @@ h2 {
   .navbar > .container-fluid .navbar-brand {
 	width: 150px;
 	padding-top: 5px;
-}
-
-.folio-piece {
-
 }
 
 .btn-primary {
@@ -189,6 +205,7 @@ table {
 h5 {
 	color: #fff;
 	font-size: 20px;
+	margin-bottom: .15em;
 }
 
 .footer-text {
@@ -208,7 +225,13 @@ a:visited {
   text-decoration: none;
 }
 
+.col-md-4 {
+	height: 10rem;
+	vertical-align: top;
+	margin-bottom: 1em;
+}
 @media (min-width: 768px) {
+
 	.website-quote {
 	font-size: 90px;
 	padding-top: 10%;
@@ -216,15 +239,15 @@ a:visited {
 
 	.float-left {
 	float:left;
-	width: 25%;
+	width: 35%;
 	margin-top: 3%;
 	margin-left: 3%;
 	}
 
 	.float-right{
 	float:right;
-	width: 60%;
-	margin-right: 8%;
+	width: 55%;
+	margin-right: 2%;
 	text-align: justify;
 	}
 
@@ -251,10 +274,18 @@ tr {
 }
 
 @media (min-width: 992px) {
+	.container {
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
 	.intro-section{
 	padding-top: 12%;
 	padding-bottom: 5%;
 	}
+
+
 
 	.website-quote {
 	font-size: 100px;
@@ -272,16 +303,20 @@ tr {
 
 @media (min-width: 1800px) {
 	.container {
-		width: 1800px;
-		margin-right: auto;
-		margin-left: auto;
+		width: 60%;
 	}
 
 	.float-right {
 		float:right;
-		width: 49%;
-		margin-right: 18%;
+		width: 55%;
+		margin-right: 3%;
 		text-align: justify;
+	}
+
+		.float-left {
+		width: 35%;
+		margin-right: 2%;
+
 	}
 
 	.float-left {
