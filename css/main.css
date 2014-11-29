@@ -230,6 +230,8 @@ a:visited {
 	vertical-align: top;
 	margin-bottom: 1em;
 }
+
+
 @media (min-width: 768px) {
 
 	.website-quote {
@@ -273,6 +275,10 @@ tr {
 	display: inline-block;
 }
 
+.col-sm-offset-1 {
+	margin: 0 80px 0 0;
+}
+
 @media (min-width: 992px) {
 	.container {
 		width: 80%;
@@ -298,6 +304,10 @@ tr {
 	max-width: 30%;
 	margin:0 1.5rem 1.5rem 0;
 	}
+
+	.col-sm-offset-1 {
+	margin: 0 40px 0 0;
+}
 
 }
 
