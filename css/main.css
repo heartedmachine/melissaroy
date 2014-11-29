@@ -66,7 +66,7 @@ html, body {
 	}
 
 .navbar-default {
-	background:rgba(150,150,150,0.8);
+	background:rgba(150,150,150,0.2);
 	border-bottom: #222;
 }
 
@@ -229,6 +229,17 @@ a:visited {
 	height: 10rem;
 	vertical-align: top;
 	margin-bottom: 1em;
+}
+
+.skills-wrapper {
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.profile-img{
+	max-width: 80%;
+	min-width:50%;
 }
 
 

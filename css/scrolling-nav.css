@@ -40,11 +40,18 @@ of those sections to manage the look and feel of the site. */
 
 .about-section {
     height: auto;
-    padding-top: 150px;
+    padding-top: 20px;
     padding-bottom: 20%;
     text-align: center;
     background: transparent url("../images/cream_pixels.png") repeat;
     overflow: visible;
+}
+
+@media (min-width: 768px) {
+    .about-section {
+    padding-top: 100px;
+    }
+
 }
 
 .work-section {
