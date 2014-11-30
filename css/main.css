@@ -13,14 +13,34 @@ html, body {
 	margin-top: 20%;
 }
 
-.intro-section{
-	height: 850px;
-	margin-bottom: -50px;
+@-webkit-keyframes fade-in {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
 }
 
-.intro-bg {
-	background: transparent url("http://placekitten.com/3000/800") no-repeat center top;
-	width: auto;
+.background-image {
+  background: transparent url("http://placekitten.com/3000/800") no-repeat center top;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	height: 100%;
+  opacity: 0;
+
+  -webkit-animation-name: fade-in;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-delay: 0.5s;
+}
+
+.background-image.visible {
+  opacity: 1;
+}
+
+.intro-section{
+	height: 800px;
 }
 
 .website-quote {
@@ -28,6 +48,12 @@ html, body {
 	padding-top: 5em;
 	color: #fff;
 }
+
+#slidein,
+#appearin {
+	visibility: hidden;
+    }
+
 
 .container {
 	width: 90%;
@@ -242,6 +268,35 @@ a:visited {
 	min-width:50%;
 }
 
+.delayhalf{
+-webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+
+.delayone{
+-webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+.delayonehalf{
+-webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+
+.delaytwo{
+-webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+.delaytwohalf{
+-webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+}
+
+.delaytree{
+-webkit-animation-delay: 3s;
+    animation-delay: 3s;
+}
 
 @media (min-width: 768px) {
 

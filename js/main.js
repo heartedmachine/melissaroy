@@ -2,8 +2,6 @@ var $win = $(window);
 var $sun = $('.sun');
 var $introBG = $('.intro-bg');
 var $dipperSection = $('.dipper-section');
-var $dipper = $('.dipper');
-var $shuttleSection = $('.shuttle-section');
 var $shuttle = $('.shuttle');
 
 $win.on('scroll', function () {
@@ -13,10 +11,37 @@ $win.on('scroll', function () {
 	$introBG.css('background-position', 'center ' +scrollPos / 2 + 'px');
 });
 
-$dipperSection.waypoint(function () {
-	$dipper.addClass('js-dipper-fade');
-}, { offset: '50%' });
 
-$shuttleSection.waypoint(function () {
-	$shuttle.addClass('js-shuttle-fade');
-}, { offset: '50%' });
+$(document).ready(function() {
+  $('.background-image').on('webkitAnimationEnd', function(e) {
+    $(this).addClass('visible');
+  });
+});
+
+
+  $(window).scroll(function() {
+    $('#slidein').each(function(){
+    var imagePos = $(this).offset().top;
+
+    var topOfWindow = $(window).scrollTop();
+      if (imagePos < topOfWindow+450) {
+        $(this).addClass("slideRight");
+      }
+    });
+  });
+
+  $('#slidein').click(function() {
+    $(this).addClass("slideRight");
+  });
+
+
+	$(window).scroll(function() {
+		$('#appearin').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+450) {
+				$(this).addClass("slideLeft");
+			}
+		});
+	});
