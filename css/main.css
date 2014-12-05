@@ -7,6 +7,10 @@ html, body {
   src: url('../fonts/Dragon is coming.otf');
 }
 
+strong {
+	font-weight: bold;
+}
+
 .intro-work {
 	font-size: 40px;
 	color: #fff;
@@ -19,14 +23,12 @@ html, body {
 }
 
 .background-image {
-  background: transparent url("http://placekitten.com/3000/800") no-repeat center top;
-
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-	height: 100%;
-  opacity: 0;
+  background: url("../images/workspace.jpg") no-repeat center top fixed;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+	height: auto;
 
   -webkit-animation-name: fade-in;
   -webkit-animation-duration: 1s;
@@ -40,12 +42,12 @@ html, body {
 }
 
 .intro-section{
-	height: 800px;
+	height: 270px;
 }
 
 .website-quote {
-	font-size: 45px;
-	padding-top: 5em;
+	font-size: 30px;
+	padding-top: 5px;
 	color: #fff;
 }
 
@@ -300,9 +302,22 @@ a:visited {
 
 @media (min-width: 768px) {
 
+	.background-image {
+  background: url("../images/workspace.jpg") no-repeat center top fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
 	.website-quote {
 	font-size: 90px;
-	padding-top: 10%;
+	padding-top: 15%;
+}
+
+.intro-section{
+	height: 40em;
 }
 
 	.float-left {
@@ -353,7 +368,7 @@ tr {
 	}
 
 	.intro-section{
-	padding-top: 12%;
+	padding-top: 18em;
 	padding-bottom: 5%;
 	}
 
