@@ -3,7 +3,7 @@ html, body {
 }
 
 @font-face {
-  font-family: 'Dragon is Coming';
+  font-family: 'Dragon-is-Coming';
   src: url('../fonts/Dragon is coming.otf');
 }
 
@@ -47,6 +47,7 @@ strong {
 	font-weight: 100;
 	font-size: 20px;
 	color: #fff;
+	letter-spacing: 1px;
 }
 
 .read-me-quote {
@@ -64,6 +65,10 @@ strong {
 	margin-top: 5em;
 	margin-right: auto;
 	margin-left: auto;
+}
+
+.bottom-arrow {
+	margin-bottom: 5em;
 }
 
 a.portfolio-arrow,
@@ -98,7 +103,8 @@ a.portfolio-arrow:focus {
 
 
 #slidein,
-#appearin {
+#appearin,
+#slideleft {
 	visibility: hidden;
     }
 
@@ -117,6 +123,7 @@ a.portfolio-arrow:focus {
   width: 95%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 1em;
 }
 
 .img-left {
@@ -147,7 +154,7 @@ a.portfolio-arrow:focus {
 	}
 
 .navbar-default {
-	background: transparent url("../images/lightpaperfibers.png") repeat;
+
 	border-bottom: #222;
 }
 
@@ -179,7 +186,7 @@ h2 {
 
 h6{
 	text-align: left;
-	font-family: Dragon is Coming;
+	font-family: Dragon-is-Coming;
 	font-size: 90pt;
 }
 .carousel-control.right,
@@ -223,7 +230,6 @@ max-width: 80%;
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #fff;
-	background-color: #fff;
 	border: #bbb solid 1px;
 }
 
@@ -260,7 +266,6 @@ td {
 
 .modal-footer{
 	font-size: 10px;
-	font-color: #ccc;
 }
 
 .categorie {
@@ -283,9 +288,9 @@ td {
 }
 
 .media {
-	width: auto;
+	width: 4em;
 	display: inline-block;
-	padding: 0 auto;
+	padding: 0;
 	overflow: hidden;
 }
 
@@ -301,6 +306,8 @@ h5 {
 
 .footer-text {
 	color: #ccc;
+	font-weight: 100;
+	letter-spacing: 1px;
 }
 
 a,
@@ -394,10 +401,10 @@ a:visited {
 
 
 	.float-left {
-	width: 45%;
+	width: 50%;
 	margin-top: auto;
 	margin-left: auto;
-
+	margin-top: 3em;
 	}
 
 	.float-right{
@@ -463,10 +470,6 @@ tr {
 	margin-left: auto;
 }
 
-	.float-right{
-	max-width: 10%;
-
-	}
 
 	.pet-img {
 	max-width: 60%;
