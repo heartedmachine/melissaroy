@@ -96,7 +96,7 @@ figure.effect-ming figcaption::before {
 	bottom: 30px;
 	left: 30px;
 	border: 2px solid #fff;
-	box-shadow: 0 0 0 30px rgba(255,255,255,0.2);
+	box-shadow: 0 0 0 30px rgba(27,175,148,0.2);
 	content: '';
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -133,11 +133,11 @@ figure.effect-ming:hover p {
 }
 
 figure.effect-ming:hover figcaption {
-	background-color: rgba(58,52,42,0);
+	background-color: rgba(27,175,148,0);
 }
 
 figure.effect-ming:hover img {
-	opacity: 0.4;
+
 }
 
 /* Media queries */
