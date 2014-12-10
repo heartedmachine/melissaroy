@@ -1,0 +1,51 @@
+body {
+	background-image: url("../images/broken_noise.png");
+}
+
+.container-content{
+	text-align: center;
+	margin-top: 10em;
+	padding: 10px;
+}
+
+.logo {
+	float: left;
+	height: 50px;
+	padding: 15px 15px;
+	font-size: 18px;
+	line-height: 20px;
+	width: 170px;
+}
+
+.navbar-default {
+	background-image: url("../images/broken_noise.png");
+}
+
+.cat {
+	width: 8em;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	font-size: 45px;
+}
+
+.text {
+	font-weight: 100;
+	color: white;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+a.click-here,
+a.click-here:link,
+a.click-here:visited {
+	color: #1BAF94;
+	font-weight: 700;
+}
+
+a.click-here:hover,
+a.click-here:focus {
+	color: #ccc;
+}
