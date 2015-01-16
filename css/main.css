@@ -178,7 +178,16 @@ a.portfolio-arrow:focus {
   padding: 1em 3em;
 }
 
+a.port-links,
+a.port-links:link,
+a.port-links:visited {
+	color: #222;
+}
 
+a.port-links:hover,
+a.port-links:focus {
+	color: #1BAF94;
+}
 
 h2 {
 	text-align: left;
