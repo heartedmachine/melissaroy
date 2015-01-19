@@ -389,12 +389,11 @@ a:visited {
 
 @media (min-width: 768px) {
 
-
  .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
 	width: 200px;
 	padding-top: 0px;
-}
+	}
 
 .profile-img{
 	max-width: 80%;
@@ -402,12 +401,12 @@ a:visited {
 	min-width:50%;
 	margin-right: auto;
 	margin-left: auto;
-}
+	}
 
 
 	.website-quote {
 	padding-top: 5%;
-}
+	}
 
 
 	.float-left {
@@ -425,12 +424,12 @@ a:visited {
 .left-about {
 	float: left;
 	width: 50%;
-}
+	}
 
 .right-about {
 	float: right;
 	width: 45%;
-}
+	}
 
 	.nav,
 	.navbar-nav {
@@ -447,18 +446,19 @@ a:visited {
 	.navbar {
 	margin-bottom: 0;
 }
+
 tr {
 	width: 80%;
-}
-
+	}
 
 .col-md-4 {
 	width: 30%;
 	display: inline-block;
-}
+	}
 
 .col-sm-offset-1 {
 	margin: 0 80px 0 0;
+	}
 }
 
 @media (min-width: 992px) {
@@ -493,7 +493,6 @@ tr {
 	}
 
 	.col-sm-offset-1 {
-	margin: 0 40px 0 0;
 }
 
 }
